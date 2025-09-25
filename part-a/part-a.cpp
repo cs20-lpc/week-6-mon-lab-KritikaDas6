@@ -33,12 +33,11 @@ T findMaxRecTail(const T arr[], const int SIZE, int i){
         return arr[i];
     }
 
-    T max = findMaxRecTail(arr, SIZE, i+1); //gets what is - a for loop
+    T max = findMaxRecTail(arr, SIZE, i+1); 
     if(max<arr[i]){
         return arr[i];
     }
     return max;
-
 
 }
 
