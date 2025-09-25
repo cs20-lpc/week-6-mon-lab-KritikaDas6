@@ -25,7 +25,7 @@ void towerHanoi(int numDisks, string source, string buffer, string target, int& 
         return;
     }
     towerHanoi(numDisks - 1, source, target, buffer, numMoves);
-    cout << "Moving disk  " << numDisks << "from #  " << source << " to #" << target << endl;
+    cout << "Moving disk " << numDisks << "from # " << source << " to # " << target << endl;
     numMoves++;
     
     towerHanoi(numDisks - 1, buffer, source, target, numMoves);
