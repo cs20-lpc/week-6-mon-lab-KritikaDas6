@@ -1,0 +1,82 @@
+----------------------------------------
+Trying n = 1
+
+Moving disk  1from #  Rod #1 to #Rod #3
+
+Number of Moves = 1
+----------------------------------------
+Trying n = 2
+
+Moving disk  1from #  Rod #1 to #Rod #2
+Moving disk  2from #  Rod #1 to #Rod #3
+Moving disk  1from #  Rod #2 to #Rod #3
+
+Number of Moves = 3
+----------------------------------------
+Trying n = 3
+
+Moving disk  1from #  Rod #1 to #Rod #3
+Moving disk  2from #  Rod #1 to #Rod #2
+Moving disk  1from #  Rod #3 to #Rod #2
+Moving disk  3from #  Rod #1 to #Rod #3
+Moving disk  1from #  Rod #2 to #Rod #1
+Moving disk  2from #  Rod #2 to #Rod #3
+Moving disk  1from #  Rod #1 to #Rod #3
+
+Number of Moves = 7
+----------------------------------------
+Trying n = 4
+
+Moving disk  1from #  Rod #1 to #Rod #2
+Moving disk  2from #  Rod #1 to #Rod #3
+Moving disk  1from #  Rod #2 to #Rod #3
+Moving disk  3from #  Rod #1 to #Rod #2
+Moving disk  1from #  Rod #3 to #Rod #1
+Moving disk  2from #  Rod #3 to #Rod #2
+Moving disk  1from #  Rod #1 to #Rod #2
+Moving disk  4from #  Rod #1 to #Rod #3
+Moving disk  1from #  Rod #2 to #Rod #3
+Moving disk  2from #  Rod #2 to #Rod #1
+Moving disk  1from #  Rod #3 to #Rod #1
+Moving disk  3from #  Rod #2 to #Rod #3
+Moving disk  1from #  Rod #1 to #Rod #2
+Moving disk  2from #  Rod #1 to #Rod #3
+Moving disk  1from #  Rod #2 to #Rod #3
+
+Number of Moves = 15
+----------------------------------------
+Trying n = 5
+
+Moving disk  1from #  Rod #1 to #Rod #3
+Moving disk  2from #  Rod #1 to #Rod #2
+Moving disk  1from #  Rod #3 to #Rod #2
+Moving disk  3from #  Rod #1 to #Rod #3
+Moving disk  1from #  Rod #2 to #Rod #1
+Moving disk  2from #  Rod #2 to #Rod #3
+Moving disk  1from #  Rod #1 to #Rod #3
+Moving disk  4from #  Rod #1 to #Rod #2
+Moving disk  1from #  Rod #3 to #Rod #2
+Moving disk  2from #  Rod #3 to #Rod #1
+Moving disk  1from #  Rod #2 to #Rod #1
+Moving disk  3from #  Rod #3 to #Rod #2
+Moving disk  1from #  Rod #1 to #Rod #3
+Moving disk  2from #  Rod #1 to #Rod #2
+Moving disk  1from #  Rod #3 to #Rod #2
+Moving disk  5from #  Rod #1 to #Rod #3
+Moving disk  1from #  Rod #2 to #Rod #1
+Moving disk  2from #  Rod #2 to #Rod #3
+Moving disk  1from #  Rod #1 to #Rod #3
+Moving disk  3from #  Rod #2 to #Rod #1
+Moving disk  1from #  Rod #3 to #Rod #2
+Moving disk  2from #  Rod #3 to #Rod #1
+Moving disk  1from #  Rod #2 to #Rod #1
+Moving disk  4from #  Rod #2 to #Rod #3
+Moving disk  1from #  Rod #1 to #Rod #3
+Moving disk  2from #  Rod #1 to #Rod #2
+Moving disk  1from #  Rod #3 to #Rod #2
+Moving disk  3from #  Rod #1 to #Rod #3
+Moving disk  1from #  Rod #2 to #Rod #1
+Moving disk  2from #  Rod #2 to #Rod #3
+Moving disk  1from #  Rod #1 to #Rod #3
+
+Number of Moves = 31

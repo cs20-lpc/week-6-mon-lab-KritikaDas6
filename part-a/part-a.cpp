@@ -43,21 +43,6 @@ T findMaxRecTail(const T arr[], const int SIZE, int i){
 }
 
 
-// Function definition (no default argument here)
-// template <typename T>
-// T findMaxRecTail(const T arr[], const int SIZE, int i) {
-//     if (i == SIZE - 1) {
-//         return arr[i];
-//     }
-
-//     T max = findMaxRecTail(arr, SIZE, i + 1);
-
-//     if (max < arr[i]) {
-//         return arr[i];
-//     }
-//     return max;
-// }
-
 // The `findMaxRecTail` function has 3 parameters:
 
 // 1. `arr` - a constant array containing the elements
