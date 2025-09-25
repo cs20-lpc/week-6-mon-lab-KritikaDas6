@@ -1,0 +1,8 @@
+Maximum using Recursion: 130
+Should be 130 for the fixed array
+----------------------------------------
+
+----------------------------------------
+Maximum using Standard Algorithm: 9963
+Maximum using Recursion: 9963
+----------------------------------------

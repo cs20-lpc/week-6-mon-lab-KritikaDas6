@@ -10,7 +10,9 @@ using namespace std;
 *******************************************************************************/
 
 template <typename T>
-T findMaxRecTail(const T[], const int, int = 0);
+T findMaxRecTail(const T arr[], const int SIZE, int i = 0);
+
+
 
 /*******************************************************************************
  * Description:
@@ -24,6 +26,46 @@ T findMaxRecTail(const T[], const int, int = 0);
  * Output:
  * An integer to signal to the OS the exit code.
 *******************************************************************************/
+
+template <typename T>
+T findMaxRecTail(const T arr[], const int SIZE, int i){
+    if(i==SIZE-1){
+        return arr[i];
+    }
+
+    T max = findMaxRecTail(arr, SIZE, i+1); //gets what is - a for loop
+    if(max<arr[i]){
+        return arr[i];
+    }
+    return max;
+
+
+}
+
+
+// Function definition (no default argument here)
+// template <typename T>
+// T findMaxRecTail(const T arr[], const int SIZE, int i) {
+//     if (i == SIZE - 1) {
+//         return arr[i];
+//     }
+
+//     T max = findMaxRecTail(arr, SIZE, i + 1);
+
+//     if (max < arr[i]) {
+//         return arr[i];
+//     }
+//     return max;
+// }
+
+// The `findMaxRecTail` function has 3 parameters:
+
+// 1. `arr` - a constant array containing the elements
+// 2. `SIZE` - a constant integer that holds the number of elements in `arr`
+// 3. `i` - an integer that represents the current position of the "head" of `arr`, with a default value of 0
+
+// To continue practicing how to analyze code, you are suggested to perform a time complexity analysis. You can do so as a comment block above the function.
+
 
 int main() {
     // create the array
